@@ -11,7 +11,7 @@ except ImportError:
     from distutils.core import setup
 
 
-with open('README.md', 'r') as readme:
+with open('README.md', 'r', encoding='utf-8') as readme:
     readme_text = readme.read()
     readme_text = readme_text.split('## Contributing')[0]
 
